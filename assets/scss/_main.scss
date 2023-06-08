@@ -1,0 +1,77 @@
+// HEADER
+
+
+.iphone{
+    
+    width: 350px;
+    margin-bottom: -50px;
+ 
+}
+
+// LOREM
+
+
+    .bglor{
+        background-color: #eeb740;
+        overflow-y: hidden;
+        border-radius :20px;
+        
+   
+
+    .lor {
+        padding-top: $espacement;
+        padding-left: $espacement;
+        
+        
+        h1 {
+            margin-bottom: $espacement;
+            color: white;
+        }
+
+        p {
+            margin-bottom: $espacement;
+            color: white;
+        }
+
+    }
+
+}
+    
+
+   
+
+
+   
+
+
+// FEATURE
+#features {
+    background-image : url(../img/wave.svg);
+}
+
+// SERVICES
+
+.image-service{
+    width: 550px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+
+    .bigt{
+        padding-top: $espacement;
+        font-size: 50px;
+    }
+
+
+
+    // .image-services{
+    //     background-image: ;
+    //     background-size:cover ;
+    // }
+
+    .ser {
+        background-image: url(../img/homme-assis-batiment.jpg);
+        border-radius: 20px;
+        height: 50px;
+    }

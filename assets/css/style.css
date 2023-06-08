@@ -1,0 +1,72 @@
+.mybtn {
+  text-decoration: none;
+  border: solid;
+  border-width: 1px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px black;
+}
+
+#footercontact {
+  background-color: black;
+}
+
+.logo {
+  width: 200px;
+}
+
+.head {
+  padding-bottom: 50px;
+}
+
+.iphone {
+  width: 350px;
+  margin-bottom: -50px;
+}
+
+.bglor {
+  background-color: #eeb740;
+  overflow-y: hidden;
+  border-radius: 20px;
+}
+.bglor .lor {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.bglor .lor h1 {
+  margin-bottom: 50px;
+  color: white;
+}
+.bglor .lor p {
+  margin-bottom: 50px;
+  color: white;
+}
+
+#features {
+  background-image: url(../img/wave.svg);
+}
+
+.image-service {
+  width: 550px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.bigt {
+  padding-top: 50px;
+  font-size: 50px;
+}
+
+.ser {
+  background-image: url(../img/homme-assis-batiment.jpg);
+  border-radius: 20px;
+  height: 50px;
+}
+
+* {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

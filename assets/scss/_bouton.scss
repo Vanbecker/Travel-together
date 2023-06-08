@@ -1,0 +1,35 @@
+// .mybtn {
+//     text-decoration: none;
+
+    
+// }
+
+
+// .mybtn {
+//     border: solid;
+//     border-width: 1px;
+//     padding:10px;
+//     background-color: white;
+//     color: black;
+//     border-radius: 5px;
+//     box-shadow: 1px 1px 1px black;
+// }
+
+@mixin button {
+    text-decoration: none;
+    border: solid;
+    border-width: 1px;
+    padding:10px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.mybtn {
+    @include button;
+}
+
+// .mybtn2 {
+//     @include button (#eeb740);
+// }
