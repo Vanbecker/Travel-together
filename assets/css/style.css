@@ -62,7 +62,29 @@
 .ser {
   background-image: url(../img/homme-assis-batiment.jpg);
   border-radius: 20px;
-  height: 50px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.ser1 {
+  background-image: url(../img/homme-assis-batiment.jpg);
+}
+
+.ser2 {
+  background-image: url(../img/passport.jpg);
+}
+
+.ser3 {
+  background-image: url(../img/montgolfiere.jpg);
+}
+
+.services-right .ser {
+  height: 245px;
+  margin: 5px;
 }
 
 * {
