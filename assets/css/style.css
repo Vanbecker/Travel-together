@@ -1,94 +1,18 @@
-.mybtn {
-  text-decoration: none;
-  border: solid;
-  border-width: 1px;
-  padding: 10px;
-  background-color: white;
-  color: black;
-  border-radius: 5px;
-  box-shadow: 1px 1px 1px black;
-}
+/* Error: Expected expression.
+ *   ,
+ * 4 | $imageserv:
+ *   |            ^
+ *   '
+ *   assets/scss/_font.scss 4:12  @import
+ *   assets/scss/style.scss 2:9   root stylesheet */
 
-#footercontact {
-  background-color: black;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Expected expression.\a   \2577 \a 4 \2502  $imageserv:\a   \2502             ^\a   \2575 \a   assets/scss/_font.scss 4:12  @import\a   assets/scss/style.scss 2:9   root stylesheet";
 }
-
-.logo {
-  width: 200px;
-}
-
-.head {
-  padding-bottom: 50px;
-}
-
-.iphone {
-  width: 350px;
-  margin-bottom: -50px;
-}
-
-.bglor {
-  background-color: #eeb740;
-  overflow-y: hidden;
-  border-radius: 20px;
-}
-.bglor .lor {
-  padding-top: 50px;
-  padding-left: 50px;
-}
-.bglor .lor h1 {
-  margin-bottom: 50px;
-  color: white;
-}
-.bglor .lor p {
-  margin-bottom: 50px;
-  color: white;
-}
-
-#features {
-  background-image: url(../img/wave.svg);
-}
-
-.image-service {
-  width: 550px;
-  height: 300px;
-  border-radius: 20px;
-}
-
-.bigt {
-  padding-top: 50px;
-  font-size: 50px;
-}
-
-.ser {
-  background-image: url(../img/homme-assis-batiment.jpg);
-  border-radius: 20px;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-}
-
-.ser1 {
-  background-image: url(../img/homme-assis-batiment.jpg);
-}
-
-.ser2 {
-  background-image: url(../img/passport.jpg);
-}
-
-.ser3 {
-  background-image: url(../img/montgolfiere.jpg);
-}
-
-.services-right .ser {
-  height: 245px;
-  margin: 5px;
-}
-
-* {
-  text-decoration: none;
-}
-
-/*# sourceMappingURL=style.css.map */
